@@ -7,6 +7,6 @@ class Dog(val name: String, weightParam: Int, breed_param: String) {
             }
     val weightInKgs: Double
             get() {
-                weight * 2.2
+                return weight * 2.2
             }
 }
